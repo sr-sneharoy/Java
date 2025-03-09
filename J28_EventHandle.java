@@ -8,6 +8,7 @@ class Log implements ActionListener {
     this.ref = ref;
   }
 
+  @SuppressWarnings("deprecation")
   public void actionPerformed(ActionEvent e1) {
     if (e1.getSource() == ref.b1) { // Login Button
       String s1 = ref.t1.getText();

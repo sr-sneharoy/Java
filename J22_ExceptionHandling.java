@@ -3,6 +3,7 @@
 // Parent can catch their child
 
 public class J22_ExceptionHandling {
+  @SuppressWarnings("null")
   public static void main(String[] args) {
     String s1 = null;
     try{

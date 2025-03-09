@@ -31,6 +31,7 @@ class Customer implements Runnable{
     synchronized(x1){
       System.out.println(str + " Enter amount to withdraw : ");
       int amt = sc.nextInt();
+      sc.close();
       if(x1.isSufficientBal(amt)) x1.withdraw(amt, str);
       else System.out.println(str + " Insufficient Balance!!!");
     }

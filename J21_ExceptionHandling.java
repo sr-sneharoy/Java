@@ -34,6 +34,7 @@
 
 
 public class J21_ExceptionHandling {
+  @SuppressWarnings("null")
   public static void main(String[] args) {
     // String s1 = null;
     // System.out.println(s1.length());  //NullPointerException  => program will terminate here next line will not run

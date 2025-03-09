@@ -7,7 +7,7 @@ public class J4_Array {
     System.out.println("Enter the size of array : ");
     int n = sc.nextInt();
 
-    int a[] = new int[n]; //a is a referencing variable which point to an object which contain 'n' blocks and one extra block(for length)
+    int a[] = new int[n]; //a is a referencing variable which point to an object which contain 'n' blocks
  
     System.out.println("Enter elements for the array :");
     for(int i = 0; i < a.length; i++){

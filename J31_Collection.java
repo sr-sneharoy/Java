@@ -27,13 +27,13 @@
 // Not Thread Safe (Data can be lost)                Thread Safe
 // Fast                                              Slow
 
-// ArrayList  => can store heterogeneous data
+// ArrayList  => can store heterogeneous data  => size can be increase 
 
 import java.util.*;
 
 public class J31_Collection{
   public static void main(String[] args) {
-    ArrayList l1 = new ArrayList(5);
+    ArrayList <String> l1 = new ArrayList<>(5);
     l1.add("A");
     l1.add("B");
     l1.add("C");
